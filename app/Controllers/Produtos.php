@@ -13,9 +13,9 @@ class Produtos extends ResourceController
         $this->produtosModel = new \App\Models\ProdutosModel();
     }
 
-    public function Listar()
+    public function ListarTabela()
     {
-        $data = $this->produtosModel->findALL();
+        $data = $this->produtosModel->findAll();
         return $this->response->setJson($data);
     }
 
@@ -25,4 +25,17 @@ class Produtos extends ResourceController
         return $this->response->setJson($data);
     }
 
+    public function getRegistros($limit)
+    {
+        $data = $this->produtosModel->findAll($limit);
+        return $this->response->setJson($data);
+    }
+
+    public function gravarProduto(){
+        $this->produtosModel->save([
+            'nome'  => $this->request->getPost('nome'),
+            'valor' => $this->request->getPost('valor'),
+            'descricao' => $this->request->getPost('descricao')              
+        ]);
+    }
 }

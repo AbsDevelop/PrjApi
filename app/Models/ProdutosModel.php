@@ -14,7 +14,11 @@ class ProdutosModel extends Model
         return $this->findAll();
     }
 
-    public function getProduto($id){
-        return $this->asArray()->where(['id'=>$id])->first();
+    public function getRegistros($id){
+        //$query = $db->query("SELECT * FROM `produtos` limit".$limit);
+        //return $query->getResultArray();
+
+        return $this->asArray()->findAll($limit);
     }
+
 }
