@@ -39,7 +39,11 @@ $routes->get('/', 'Home::index');
 $routes->get('tabela', 'Produtos::ListarTabela');
 $routes->get('produto/(:num)', 'Produtos::Produto/$1');
 $routes->get('registros/(:num)', 'Produtos::getRegistros/$1');
-$routes->post('gravar', 'Produtos::gravarProduto/$1');
+$routes->post('inserir', 'Produtos::inscreverProduto/$1');
+$routes->get('model/(:num)', 'Produtos::produtoModel/$1');
+$routes->put('atualizar/(:segment)', 'Produtos::atualizar/$1');
+$routes->patch('atualizar/(:segment)', 'Produtos::atualizar/$1');
+$routes->delete('deletar/(:num)', 'Produtos::deletar/$1');
 
 /*
  * --------------------------------------------------------------------

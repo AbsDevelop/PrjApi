@@ -31,11 +31,25 @@ class Produtos extends ResourceController
         return $this->response->setJson($data);
     }
 
-    public function gravarProduto(){
+    public function produtoModel($limit){
+        $data = $this->produtoModel->getProdutos($limit);
+        return $this->response->setJson($data);
+    }
+
+    public function inscreverProduto(){
         $this->produtosModel->save([
             'nome'  => $this->request->getPost('nome'),
             'valor' => $this->request->getPost('valor'),
             'descricao' => $this->request->getPost('descricao')              
         ]);
+    }
+
+    public function atualizar($id){
+        $data = $this->request->getJson();
+        $this->produtosModel->update($id, $data);
+    }
+
+    public function deletar($id){
+        $this->produtosModel->delete($id);
     }
 }

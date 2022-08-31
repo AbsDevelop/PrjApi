@@ -1,0 +1,104 @@
+CRITICAL - 2022-08-31 12:22:43 --> Undefined property: App\Controllers\Produtos::$produtoModel
+in APPPATH\Controllers\Produtos.php on line 49.
+ 1 APPPATH\Controllers\Produtos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Produtos::$produtoModel', 'APPPATH\\Controllers\\Produtos.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->atualizar('3')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-31 12:23:06 --> Undefined property: App\Controllers\Produtos::$produtoModel
+in APPPATH\Controllers\Produtos.php on line 49.
+ 1 APPPATH\Controllers\Produtos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Produtos::$produtoModel', 'APPPATH\\Controllers\\Produtos.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->atualizar('3')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-31 12:23:47 --> Undefined property: App\Controllers\Produtos::$produtoModel
+in APPPATH\Controllers\Produtos.php on line 53.
+ 1 APPPATH\Controllers\Produtos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Produtos::$produtoModel', 'APPPATH\\Controllers\\Produtos.php', 53, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->deletar('6')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-31 12:24:09 --> Undefined property: App\Controllers\Produtos::$produtoModel
+in APPPATH\Controllers\Produtos.php on line 53.
+ 1 APPPATH\Controllers\Produtos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Produtos::$produtoModel', 'APPPATH\\Controllers\\Produtos.php', 53, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->deletar('6')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-31 12:25:50 --> Undefined property: App\Controllers\Produtos::$produtoModel
+in APPPATH\Controllers\Produtos.php on line 53.
+ 1 APPPATH\Controllers\Produtos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Produtos::$produtoModel', 'APPPATH\\Controllers\\Produtos.php', 53, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->deletar('6')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-31 12:25:53 --> Undefined property: App\Controllers\Produtos::$produtoModel
+in APPPATH\Controllers\Produtos.php on line 49.
+ 1 APPPATH\Controllers\Produtos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Produtos::$produtoModel', 'APPPATH\\Controllers\\Produtos.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->atualizar('3')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-31 12:26:41 --> Undefined property: App\Controllers\Produtos::$produtoModel
+in APPPATH\Controllers\Produtos.php on line 49.
+ 1 APPPATH\Controllers\Produtos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Produtos::$produtoModel', 'APPPATH\\Controllers\\Produtos.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->atualizar('3')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-31 12:29:57 --> Undefined property: App\Controllers\Produtos::$produtoModel
+in APPPATH\Controllers\Produtos.php on line 49.
+ 1 APPPATH\Controllers\Produtos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Produtos::$produtoModel', 'APPPATH\\Controllers\\Produtos.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->atualizar('3')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-31 12:30:01 --> Undefined property: App\Controllers\Produtos::$produtoModel
+in APPPATH\Controllers\Produtos.php on line 49.
+ 1 APPPATH\Controllers\Produtos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Produtos::$produtoModel', 'APPPATH\\Controllers\\Produtos.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->atualizar('3')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-31 12:30:05 --> Undefined property: App\Controllers\Produtos::$produtoModel
+in APPPATH\Controllers\Produtos.php on line 53.
+ 1 APPPATH\Controllers\Produtos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Produtos::$produtoModel', 'APPPATH\\Controllers\\Produtos.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->deletar('6')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-31 12:31:47 --> Undefined property: App\Controllers\Produtos::$produtoModel
+in APPPATH\Controllers\Produtos.php on line 53.
+ 1 APPPATH\Controllers\Produtos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Produtos::$produtoModel', 'APPPATH\\Controllers\\Produtos.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->deletar('6')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-31 12:32:41 --> Undefined property: App\Controllers\Produtos::$produtoModel
+in APPPATH\Controllers\Produtos.php on line 53.
+ 1 APPPATH\Controllers\Produtos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Produtos::$produtoModel', 'APPPATH\\Controllers\\Produtos.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->deletar('6')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-31 12:32:47 --> Undefined property: App\Controllers\Produtos::$produtoModel
+in APPPATH\Controllers\Produtos.php on line 53.
+ 1 APPPATH\Controllers\Produtos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Produtos::$produtoModel', 'APPPATH\\Controllers\\Produtos.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produtos->deletar('6')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

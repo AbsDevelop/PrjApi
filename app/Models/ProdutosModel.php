@@ -10,15 +10,16 @@ class ProdutosModel extends Model
     protected $primaryKey  = 'id';
     protected $allowedFields = ['nome', 'valor', 'descricao'];
 
-    public function getProdutos(){
-        return $this->findAll();
+    public function getProduto($id){
+        return $this->asArray()->where(["id"=>$id])->first();
     }
 
-    public function getRegistros($id){
-        //$query = $db->query("SELECT * FROM `produtos` limit".$limit);
-        //return $query->getResultArray();
-
-        return $this->asArray()->findAll($limit);
+    public function getRegistros($limit){
+        //return $this->asArray()->findAll($limit);
+        
+        $query = $this->db->query("SELECT * FROM `produtos` limit".$limit);
+        $result = $query->getResultArray();
+        return $result;
     }
 
 }
