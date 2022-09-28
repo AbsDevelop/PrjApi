@@ -15,7 +15,11 @@ class TokenModel extends Model
     }
 
     public function ValidToken($id, $token){
-        //retonar true ou false
+        if ($id == $token) {
+            return(Produto($id));
+        }else {
+            return('Error');
+        }
     }
 
 }

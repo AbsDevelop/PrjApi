@@ -37,7 +37,7 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('tabela', 'Produtos::ListarTabela');
-$routes->get('produto/(:num)', 'Produtos::Produto/$1');
+$routes->get('produto/(:any)', 'Produtos::Produto/$1');
 $routes->get('registros/(:num)', 'Produtos::getRegistros/$1');
 $routes->post('inserir', 'Produtos::inscreverProduto/$1');
 $routes->get('model/(:num)', 'Produtos::produtoModel/$1');

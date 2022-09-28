@@ -52,8 +52,4 @@ class Produtos extends ResourceController
     public function deletar($id){
         $this->produtosModel->delete($id);
     }
-
-    public function Validtoken($id, $token){
-        
-    }
 }
